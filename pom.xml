@@ -30,11 +30,19 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.3</spring-cloud.version>
 	</properties>
+
 	<dependencies>
+
 	//this is DEV
 	<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-client</artifactId>
+	</dependency>
+	//this is QA
+			<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-google</artifactId>
+
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
